@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login Logout" time="107.107" tests="2" failures="0" errors="0">
+   <testsuite name="Login Logout" tests="2" failures="0" errors="0" time="107.107" skipped="0" timestamp="13-02-2024T23:18:40" hostname="BRI - 192.168.0.101" id="Test Suites/Login Logout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Automation\\advaantage_testing\\Reports\\20240213_231831\\Login Logout\\20240213_231831"/>
+         <property name="logFiles" value="D:\\Automation\\advaantage_testing\\Reports\\20240213_231831\\Login Logout\\20240213_231831\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="BRI - 192.168.0.101"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="8c56d13e7e590d32d96814a847d94719"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/login" time="40.916" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[13-02-2024T23:18:41 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+13-02-2024T23:18:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-02-2024T23:18:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-02-2024T23:18:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-02-2024T23:18:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-02-2024T23:18:50 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://advantageonlineshopping.com/?authuser=0#/' successfully
+
+13-02-2024T23:18:54 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/?authuser=0#/' successfully
+
+13-02-2024T23:18:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Login/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T23:19:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T23:19:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Advantage Shopping/input_OR_username"), "ruslan1"): Text 'ruslan1' is set on object 'Object Repository/Login/Page_Advantage Shopping/input_OR_username'
+
+13-02-2024T23:19:02 - [MESSAGE][PASSED] - Text 'ruslan1' is set on object 'Object Repository/Login/Page_Advantage Shopping/input_OR_username'
+
+13-02-2024T23:19:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Advantage Shopping/input_Username_password"), "P@ssw0rd"): Text 'P@ssw0rd' is set on object 'Object Repository/Login/Page_Advantage Shopping/input_Username_password'
+
+13-02-2024T23:19:04 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/Login/Page_Advantage Shopping/input_Username_password'
+
+13-02-2024T23:19:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Advantage Shopping/button_SIGN IN")): Object: 'Object Repository/Login/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+13-02-2024T23:19:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+13-02-2024T23:19:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Advantage Shopping/a_ruslan1_750cc9")): Object: 'Object Repository/Login/Page_Advantage Shopping/a_ruslan1_750cc9' is clicked on
+
+13-02-2024T23:19:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Advantage Shopping/a_ruslan1_750cc9' is clicked on
+
+13-02-2024T23:19:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Advantage Shopping/label_My account")): Object: 'Object Repository/Login/Page_Advantage Shopping/label_My account' is clicked on
+
+13-02-2024T23:19:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Advantage Shopping/label_My account' is clicked on
+
+13-02-2024T23:19:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Page_Advantage Shopping/div_ruslan ruslan"), "ruslan ruslan"): Actual text and expected text of test object 'Object Repository/Login/Page_Advantage Shopping/div_ruslan ruslan' are matched.
+
+13-02-2024T23:19:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_Advantage Shopping/div_ruslan ruslan' are matched.
+
+13-02-2024T23:19:22 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/login' .
+
+13-02-2024T23:19:22 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/login' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login_logout" time="65.692" classname="Test Cases/login_logout" status="PASSED">
+         <system-out><![CDATA[13-02-2024T23:19:22 - [TEST_CASE][PASSED] - Test Cases/login_logout: Test Cases/login_logout
+
+13-02-2024T23:19:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-02-2024T23:19:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+13-02-2024T23:19:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-02-2024T23:19:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-02-2024T23:19:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-02-2024T23:19:28 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://advantageonlineshopping.com/?authuser=0#/' successfully
+
+13-02-2024T23:19:33 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/?authuser=0#/' successfully
+
+13-02-2024T23:19:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Login/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T23:19:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T23:19:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Advantage Shopping/input_OR_username"), "ruslan1"): Text 'ruslan1' is set on object 'Object Repository/Login/Page_Advantage Shopping/input_OR_username'
+
+13-02-2024T23:19:40 - [MESSAGE][PASSED] - Text 'ruslan1' is set on object 'Object Repository/Login/Page_Advantage Shopping/input_OR_username'
+
+13-02-2024T23:19:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Advantage Shopping/input_Username_password"), "P@ssw0rd"): Text 'P@ssw0rd' is set on object 'Object Repository/Login/Page_Advantage Shopping/input_Username_password'
+
+13-02-2024T23:19:42 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/Login/Page_Advantage Shopping/input_Username_password'
+
+13-02-2024T23:19:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Advantage Shopping/button_SIGN IN")): Object: 'Object Repository/Login/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+13-02-2024T23:19:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+13-02-2024T23:19:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Advantage Shopping/a_ruslan1_750cc9")): Object: 'Object Repository/Login/Page_Advantage Shopping/a_ruslan1_750cc9' is clicked on
+
+13-02-2024T23:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Advantage Shopping/a_ruslan1_750cc9' is clicked on
+
+13-02-2024T23:20:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Advantage Shopping/label_My account")): Object: 'Object Repository/Login/Page_Advantage Shopping/label_My account' is clicked on
+
+13-02-2024T23:20:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Advantage Shopping/label_My account' is clicked on
+
+13-02-2024T23:20:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Page_Advantage Shopping/div_ruslan ruslan"), "ruslan ruslan"): Actual text and expected text of test object 'Object Repository/Login/Page_Advantage Shopping/div_ruslan ruslan' are matched.
+
+13-02-2024T23:20:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_Advantage Shopping/div_ruslan ruslan' are matched.
+
+13-02-2024T23:20:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Advantage Shopping/a_ruslan1_750cc9")): Object: 'Object Repository/Login/Page_Advantage Shopping/a_ruslan1_750cc9' is clicked on
+
+13-02-2024T23:20:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Advantage Shopping/a_ruslan1_750cc9' is clicked on
+
+13-02-2024T23:20:23 - [TEST_STEP][PASSED] - isLoggedIn = verifyElementPresent(findTestObject("Object Repository/Login/Page_Advantage Shopping/a_ruslan1_750cc9"), 5): Object 'Object Repository/Login/Page_Advantage Shopping/a_ruslan1_750cc9' is present
+
+13-02-2024T23:20:23 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Page_Advantage Shopping/a_ruslan1_750cc9' is present
+
+13-02-2024T23:20:23 - [TEST_STEP][PASSED] - if (isLoggedIn): null
+
+13-02-2024T23:20:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Advantage Shopping/label_Sign out")): Object: 'Object Repository/Login/Page_Advantage Shopping/label_Sign out' is clicked on
+
+13-02-2024T23:20:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Advantage Shopping/label_Sign out' is clicked on
+
+13-02-2024T23:20:24 - [TEST_STEP][PASSED] - isRuslanTextPresent = verifyElementPresent(findTestObject("Object Repository/Login/Page_Advantage Shopping/a_ruslan1_750cc9"), 5): Object 'Object Repository/Login/Page_Advantage Shopping/a_ruslan1_750cc9' is present
+
+13-02-2024T23:20:25 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Page_Advantage Shopping/a_ruslan1_750cc9' is present
+
+13-02-2024T23:20:25 - [TEST_STEP][PASSED] - if (isRuslanTextPresent): null
+
+13-02-2024T23:20:25 - [TEST_STEP][PASSED] - print("Berhasil logout"): null
+
+13-02-2024T23:20:27 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/login_logout' .
+
+13-02-2024T23:20:27 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/login_logout' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-02-2024T23:18:40 - [TEST_SUITE][PASSED] - Login Logout: Test Cases/login_logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
