@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Your shopping cart is empty</name>
+   <tag></tag>
+   <elementGuidId>3385f0a0-fb57-49d9-a415-cbd1013e715d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='shoppingCart']/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.roboto-bold.ng-scope</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>76a3af41-af6e-4e0e-9556-5d2ae7eaa604</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>roboto-bold ng-scope</value>
+      <webElementGuid>83da294d-bb0b-462b-bbc7-ec9281d46167</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>translate</name>
+      <type>Main</type>
+      <value>Your_shopping_cart_is_empty</value>
+      <webElementGuid>acee19a0-0063-4eac-859e-44fd4d4b62ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Your shopping cart is empty</value>
+      <webElementGuid>9fa693eb-db0f-42e6-b9b3-18dd333ba495</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;shoppingCart&quot;)/div[@class=&quot;bigEmptyCart center&quot;]/label[@class=&quot;roboto-bold ng-scope&quot;]</value>
+      <webElementGuid>72e9057e-58e1-442c-ba7f-6d46d83e5145</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='shoppingCart']/div/label</value>
+      <webElementGuid>419e5536-358d-4b9c-b93f-09ee5e41d384</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CHECKOUT ($0.00)'])[2]/following::label[1]</value>
+      <webElementGuid>282c4ec0-47e4-4ac2-bcda-f19ba938a94a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$0.00'])[2]/following::label[1]</value>
+      <webElementGuid>b833a01a-3dad-4d75-9e7a-e32adc95f018</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CONTINUE SHOPPING'])[1]/preceding::label[1]</value>
+      <webElementGuid>090dc1a8-e931-4430-9bd3-79aa2887a364</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//article/div/div/label</value>
+      <webElementGuid>85c19b08-50fe-46c7-bf4d-94aa8f95699d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Your shopping cart is empty' or . = 'Your shopping cart is empty')]</value>
+      <webElementGuid>4f1ca19b-42f0-4ad7-bc3f-2eed6ba3cf21</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
