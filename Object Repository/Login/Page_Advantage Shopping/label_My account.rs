@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_My account</name>
+   <tag></tag>
+   <elementGuidId>243bc1e9-44dc-4798-831c-d781e018ff8a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='loginMiniTitle']/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#loginMiniTitle > label.option.roboto-medium.ng-scope</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>736353ca-7f3f-430d-9721-759ea9c62370</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>option roboto-medium ng-scope</value>
+      <webElementGuid>4dadb8db-6128-49ab-940b-d1221f2d6d7b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>translate</name>
+      <type>Main</type>
+      <value>My_account</value>
+      <webElementGuid>11551082-e0cd-4d92-be0b-b1073054a16f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>accountSection()</value>
+      <webElementGuid>e0f7db34-f08e-4600-9d17-39e2e340aace</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:void(0)</value>
+      <webElementGuid>afb22742-c965-4d1a-bf01-71c218c6334d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>link</value>
+      <webElementGuid>507a551a-72b3-4775-b37b-07bb217abf90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>My account</value>
+      <webElementGuid>d5b290b2-a0b5-4931-9f7b-adaa0069413d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;loginMiniTitle&quot;)/label[@class=&quot;option roboto-medium ng-scope&quot;]</value>
+      <webElementGuid>32978cdb-ab80-4ab3-a3b1-1335b64ae706</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='loginMiniTitle']/label</value>
+      <webElementGuid>668d19ae-9ba8-4b01-bc90-28dd6a6d1c07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ruslan1'])[2]/following::label[1]</value>
+      <webElementGuid>0b520704-0edb-428b-9083-2c61c3537320</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My orders'])[2]/preceding::label[1]</value>
+      <webElementGuid>fe020d54-4536-4720-acb8-3ce6d0a7633a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign out'])[2]/preceding::label[2]</value>
+      <webElementGuid>cc848f41-c17f-41f0-af3c-9de554076494</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/a/div/label</value>
+      <webElementGuid>71f78171-1468-48fa-a9a3-e705113ee1ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[@href = 'javascript:void(0)' and (text() = 'My account' or . = 'My account')]</value>
+      <webElementGuid>ac2f7672-881b-4adf-8ef4-62ce01988032</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
