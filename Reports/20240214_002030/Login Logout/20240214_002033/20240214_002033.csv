@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Logout,Chrome 121.0.0.0,,,14-02-2024 00:23:19,14-02-2024 08:39:43,8h - 16m - 24.166s,PASSED
+,,,,,,,
+Test Cases/login,Chrome 121.0.0.0,,,14-02-2024 08:37:42,14-02-2024 08:39:04,1m - 22.695s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,14-02-2024 08:37:42,14-02-2024 08:38:21,38.840s,PASSED
+navigateToUrl(url),Chrome 121.0.0.0,,,14-02-2024 08:38:21,14-02-2024 08:38:22,0.926s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 121.0.0.0,,,14-02-2024 08:38:22,14-02-2024 08:38:33,10.950s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Advantage Shopping/input_OR_username""), ""ruslan1"")",Chrome 121.0.0.0,,,14-02-2024 08:38:33,14-02-2024 08:38:34,1.467s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Advantage Shopping/input_Username_password""), ""P@ssw0rd"")",Chrome 121.0.0.0,,,14-02-2024 08:38:34,14-02-2024 08:38:36,2.108s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Advantage Shopping/button_SIGN IN""))",Chrome 121.0.0.0,,,14-02-2024 08:38:36,14-02-2024 08:38:37,1.180s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Advantage Shopping/a_ruslan1_750cc9""))",Chrome 121.0.0.0,,,14-02-2024 08:38:37,14-02-2024 08:38:59,21.884s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Advantage Shopping/label_My account""))",Chrome 121.0.0.0,,,14-02-2024 08:38:59,14-02-2024 08:39:00,0.610s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login/Page_Advantage Shopping/div_ruslan ruslan""), ""ruslan ruslan"")",Chrome 121.0.0.0,,,14-02-2024 08:39:00,14-02-2024 08:39:02,2.250s,PASSED
+Video,Chrome 121.0.0.0,,,14-02-2024 08:39:04,14-02-2024 08:39:04,0.002s,PASSED
+,,,,,,,
+Test Cases/login_logout,Chrome 121.0.0.0,,,14-02-2024 08:39:04,14-02-2024 08:39:43,38.475s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,14-02-2024 08:39:05,14-02-2024 08:39:08,3.412s,PASSED
+navigateToUrl(url),Chrome 121.0.0.0,,,14-02-2024 08:39:08,14-02-2024 08:39:11,2.775s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 121.0.0.0,,,14-02-2024 08:39:11,14-02-2024 08:39:20,9.395s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Advantage Shopping/input_OR_username""), ""ruslan1"")",Chrome 121.0.0.0,,,14-02-2024 08:39:20,14-02-2024 08:39:21,1.116s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Advantage Shopping/input_Username_password""), ""P@ssw0rd"")",Chrome 121.0.0.0,,,14-02-2024 08:39:21,14-02-2024 08:39:23,1.678s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Advantage Shopping/button_SIGN IN""))",Chrome 121.0.0.0,,,14-02-2024 08:39:23,14-02-2024 08:39:24,0.684s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Advantage Shopping/a_ruslan1_750cc9""))",Chrome 121.0.0.0,,,14-02-2024 08:39:24,14-02-2024 08:39:35,11.464s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Advantage Shopping/label_My account""))",Chrome 121.0.0.0,,,14-02-2024 08:39:35,14-02-2024 08:39:36,0.656s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login/Page_Advantage Shopping/div_ruslan ruslan""), ""ruslan ruslan"")",Chrome 121.0.0.0,,,14-02-2024 08:39:36,14-02-2024 08:39:38,1.985s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Advantage Shopping/a_ruslan1_750cc9""))",Chrome 121.0.0.0,,,14-02-2024 08:39:38,14-02-2024 08:39:38,0.576s,PASSED
+"isLoggedIn = verifyElementPresent(findTestObject(""Object Repository/Login/Page_Advantage Shopping/a_ruslan1_750cc9""), 5)",Chrome 121.0.0.0,,,14-02-2024 08:39:38,14-02-2024 08:39:39,0.516s,PASSED
+if (isLoggedIn),Chrome 121.0.0.0,,,14-02-2024 08:39:39,14-02-2024 08:39:40,1.690s,PASSED
+Video,Chrome 121.0.0.0,,,14-02-2024 08:39:43,14-02-2024 08:39:43,0.002s,PASSED

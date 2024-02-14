@@ -23,9 +23,9 @@ WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.click(findTestObject('Object Repository/Login/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser'))
 
-WebUI.setText(findTestObject('Object Repository/Login/Page_Advantage Shopping/input_OR_username'), 'ruslan1')
+WebUI.setText(findTestObject('Object Repository/Login/Page_Advantage Shopping/input_OR_username'), GlobalVariable.username)
 
-WebUI.setText(findTestObject('Object Repository/Login/Page_Advantage Shopping/input_Username_password'), 'P@ssw0rd')
+WebUI.setText(findTestObject('Object Repository/Login/Page_Advantage Shopping/input_Username_password'), GlobalVariable.password)
 
 WebUI.click(findTestObject('Object Repository/Login/Page_Advantage Shopping/button_SIGN IN'))
 

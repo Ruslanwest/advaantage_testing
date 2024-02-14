@@ -1,0 +1,52 @@
+1
+00:00:00,585 --> 00:00:07,327
+1. openBrowser("")
+
+2
+00:00:07,364 --> 00:00:10,975
+5. navigateToUrl(url)
+
+3
+00:00:10,986 --> 00:00:15,465
+9. click(findTestObject("Object Repository/remove_item/Page_Advantage Shopping/a_My account My orde_124641"))
+
+4
+00:00:15,482 --> 00:00:16,958
+13. setText(findTestObject("Object Repository/remove_item/Page_Advantage Shopping/input_OR_username"), username)
+
+5
+00:00:16,978 --> 00:00:20,048
+17. setText(findTestObject("Object Repository/remove_item/Page_Advantage Shopping/input_Username_password"), password)
+
+6
+00:00:20,062 --> 00:00:21,818
+21. click(findTestObject("Object Repository/remove_item/Page_Advantage Shopping/button_SIGN IN"))
+
+7
+00:00:21,835 --> 00:00:23,046
+25. click(findTestObject("Object Repository/remove_item/Page_Advantage Shopping/span_TABLETS"))
+
+8
+00:00:23,059 --> 00:00:29,720
+29. click(findTestObject("Object Repository/remove_item/Page_Advantage Shopping/img_SHOP NOW_16"))
+
+9
+00:00:29,734 --> 00:00:56,603
+33. click(findTestObject("Object Repository/remove_item/Page_Advantage Shopping/button_ADD TO CART"))
+
+10
+00:00:56,622 --> 00:01:00,485
+37. click(findTestObject("Object Repository/remove_item/Page_Advantage Shopping/a_1"))
+
+11
+00:01:00,501 --> 00:01:02,985
+41. click(findTestObject("Object Repository/remove_item/Page_Advantage Shopping/a_REMOVE"))
+
+12
+00:01:03,008 --> 00:01:03,021
+45. pathObjekHapusItem = "Object Repository/remove_item/Page_Advantage Shopping/a_REMOVE"
+
+13
+00:01:03,043 --> 00:01:03,060
+49. pathObjekKeranjangKosong = "Object Repository/remove_item/Page_Advantage Shopping/label_Your shopping cart is empty"
+

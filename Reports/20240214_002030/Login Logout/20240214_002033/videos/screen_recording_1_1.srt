@@ -1,0 +1,36 @@
+1
+00:00:00,016 --> 00:00:38,851
+1. openBrowser("")
+
+2
+00:00:38,856 --> 00:00:39,767
+5. navigateToUrl(url)
+
+3
+00:00:39,782 --> 00:00:50,722
+9. click(findTestObject("Object Repository/Login/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser"))
+
+4
+00:00:50,732 --> 00:00:52,173
+13. setText(findTestObject("Object Repository/Login/Page_Advantage Shopping/input_OR_username"), "ruslan1")
+
+5
+00:00:52,202 --> 00:00:54,291
+17. setText(findTestObject("Object Repository/Login/Page_Advantage Shopping/input_Username_password"), "P@ssw0rd")
+
+6
+00:00:54,309 --> 00:00:55,475
+21. click(findTestObject("Object Repository/Login/Page_Advantage Shopping/button_SIGN IN"))
+
+7
+00:00:55,487 --> 00:01:17,366
+25. click(findTestObject("Object Repository/Login/Page_Advantage Shopping/a_ruslan1_750cc9"))
+
+8
+00:01:17,376 --> 00:01:17,977
+29. click(findTestObject("Object Repository/Login/Page_Advantage Shopping/label_My account"))
+
+9
+00:01:17,986 --> 00:01:20,242
+33. verifyElementText(findTestObject("Object Repository/Login/Page_Advantage Shopping/div_ruslan ruslan"), "ruslan ruslan")
+

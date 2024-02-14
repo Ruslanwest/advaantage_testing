@@ -17,16 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.click(findTestObject('Object Repository/Login/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser'))
 
-WebUI.setText(findTestObject('Object Repository/Login/Page_Advantage Shopping/input_OR_username'), 'ruslan1')
+WebUI.setText(findTestObject('Object Repository/Login/Page_Advantage Shopping/input_OR_username'), GlobalVariable.username)
 
-WebUI.setText(findTestObject('Object Repository/Login/Page_Advantage Shopping/input_Username_password'), 'P@ssw0rd')
+WebUI.setText(findTestObject('Object Repository/Login/Page_Advantage Shopping/input_Username_password'), GlobalVariable.password)
 
 WebUI.click(findTestObject('Object Repository/Login/Page_Advantage Shopping/button_SIGN IN'))
 
@@ -39,25 +38,26 @@ WebUI.verifyElementText(findTestObject('Object Repository/Login/Page_Advantage S
 WebUI.click(findTestObject('Object Repository/Login/Page_Advantage Shopping/a_ruslan1_750cc9'))
 
 /*Verifikasi untuk */
-
-def isLoggedIn = WebUI.verifyElementPresent(findTestObject('Object Repository/Login/Page_Advantage Shopping/a_ruslan1_750cc9'), 5)
+def isLoggedIn = WebUI.verifyElementPresent(findTestObject('Object Repository/Login/Page_Advantage Shopping/a_ruslan1_750cc9'), 
+    5)
 
 if (isLoggedIn) {
-  // Klik "Sign out"
-  WebUI.click(findTestObject('Object Repository/Login/Page_Advantage Shopping/label_Sign out'))
+    // Klik "Sign out"
+    WebUI.click(findTestObject('Object Repository/Login/Page_Advantage Shopping/label_Sign out'))
 
-  // Verifikasi bahwa teks "ruslan1" tidak ada
-  def isRuslanTextPresent = WebUI.verifyElementPresent(findTestObject('Object Repository/Login/Page_Advantage Shopping/a_ruslan1_750cc9'), 5)
-  if (isRuslanTextPresent) {
-	// Gagal logout
-	//throw new Exception('"ruslan1" masih ada setelah logout')
-//  } else {
-	// Berhasil logout
-	print('Berhasil logout')
-  	}
+    // Verifikasi bahwa teks "ruslan1" tidak ada
+    def isRuslanTextPresent = WebUI.verifyElementPresent(findTestObject('Object Repository/Login/Page_Advantage Shopping/a_ruslan1_750cc9'), 
+        5)
+
+    if (isRuslanTextPresent) {
+        // Gagal logout
+        //throw new Exception('"ruslan1" masih ada setelah logout')
+        //  } else {
+        // Berhasil logout
+        print('Berhasil logout')
+    }
+    // Tidak perlu logout karena tidak ada user yang login
 } else {
-		// Tidak perlu logout karena tidak ada user yang login
-  print('Tidak perlu logout karena tidak ada user yang login')
-	}	
-
+    print('Tidak perlu logout karena tidak ada user yang login')
+}
 

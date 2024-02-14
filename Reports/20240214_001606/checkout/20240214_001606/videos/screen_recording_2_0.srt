@@ -1,0 +1,64 @@
+1
+00:00:00,206 --> 00:00:04,641
+1. openBrowser("")
+
+2
+00:00:04,650 --> 00:00:07,406
+5. navigateToUrl(url)
+
+3
+00:00:07,420 --> 00:00:15,241
+9. click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/a_My account                        My orde_124641"))
+
+4
+00:00:15,269 --> 00:00:18,516
+13. setText(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/input_OR_username"), username)
+
+5
+00:00:18,527 --> 00:00:20,429
+17. setText(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/input_Username_password"), password)
+
+6
+00:00:20,437 --> 00:00:21,119
+21. click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/button_SIGN IN"))
+
+7
+00:00:21,134 --> 00:00:22,350
+25. click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/span_TABLETS"))
+
+8
+00:00:22,366 --> 00:00:25,008
+29. click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/img_SHOP NOW_16"))
+
+9
+00:00:25,017 --> 00:00:29,012
+33. click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/button_ADD TO CART"))
+
+10
+00:00:29,035 --> 00:00:33,521
+37. click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/a_1"))
+
+11
+00:00:33,551 --> 00:00:35,969
+41. click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/button_CHECKOUT (1,009.00)"))
+
+12
+00:00:35,988 --> 00:00:39,635
+45. click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/button_NEXT"))
+
+13
+00:00:39,670 --> 00:00:40,254
+49. click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/img"))
+
+14
+00:00:40,267 --> 00:00:41,761
+53. setText(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/input__safepay_username"), safepay_username)
+
+15
+00:00:41,783 --> 00:00:45,258
+57. setText(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/input__safepay_password"), safepay_password)
+
+16
+00:00:45,276 --> 00:00:46,046
+61. click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/button_PAY NOW"))
+

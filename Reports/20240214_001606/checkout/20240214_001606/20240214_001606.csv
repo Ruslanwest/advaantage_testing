@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+checkout,Chrome 121.0.0.0,,,14-02-2024 00:16:14,14-02-2024 00:18:09,1m - 54.672s,PASSED
+,,,,,,,
+Test Cases/remove_checkout,Chrome 121.0.0.0,,,14-02-2024 00:16:15,14-02-2024 00:17:20,1m - 5.905s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,14-02-2024 00:16:16,14-02-2024 00:16:23,6.740s,PASSED
+navigateToUrl(url),Chrome 121.0.0.0,,,14-02-2024 00:16:23,14-02-2024 00:16:26,3.619s,PASSED
+"click(findTestObject(""Object Repository/remove_item/Page_Advantage Shopping/a_My account My orde_124641""))",Chrome 121.0.0.0,,,14-02-2024 00:16:26,14-02-2024 00:16:31,4.495s,PASSED
+"setText(findTestObject(""Object Repository/remove_item/Page_Advantage Shopping/input_OR_username""), username)",Chrome 121.0.0.0,,,14-02-2024 00:16:31,14-02-2024 00:16:32,1.495s,PASSED
+"setText(findTestObject(""Object Repository/remove_item/Page_Advantage Shopping/input_Username_password""), password)",Chrome 121.0.0.0,,,14-02-2024 00:16:32,14-02-2024 00:16:35,3.084s,PASSED
+"click(findTestObject(""Object Repository/remove_item/Page_Advantage Shopping/button_SIGN IN""))",Chrome 121.0.0.0,,,14-02-2024 00:16:35,14-02-2024 00:16:37,1.769s,PASSED
+"click(findTestObject(""Object Repository/remove_item/Page_Advantage Shopping/span_TABLETS""))",Chrome 121.0.0.0,,,14-02-2024 00:16:37,14-02-2024 00:16:38,1.222s,PASSED
+"click(findTestObject(""Object Repository/remove_item/Page_Advantage Shopping/img_SHOP NOW_16""))",Chrome 121.0.0.0,,,14-02-2024 00:16:38,14-02-2024 00:16:45,6.675s,PASSED
+"click(findTestObject(""Object Repository/remove_item/Page_Advantage Shopping/button_ADD TO CART""))",Chrome 121.0.0.0,,,14-02-2024 00:16:45,14-02-2024 00:17:12,26.887s,PASSED
+"click(findTestObject(""Object Repository/remove_item/Page_Advantage Shopping/a_1""))",Chrome 121.0.0.0,,,14-02-2024 00:17:12,14-02-2024 00:17:16,3.880s,PASSED
+"click(findTestObject(""Object Repository/remove_item/Page_Advantage Shopping/a_REMOVE""))",Chrome 121.0.0.0,,,14-02-2024 00:17:16,14-02-2024 00:17:18,2.508s,PASSED
+"pathObjekHapusItem = ""Object Repository/remove_item/Page_Advantage Shopping/a_REMOVE""",Chrome 121.0.0.0,,,14-02-2024 00:17:18,14-02-2024 00:17:18,0.032s,PASSED
+"pathObjekKeranjangKosong = ""Object Repository/remove_item/Page_Advantage Shopping/label_Your shopping cart is empty""",Chrome 121.0.0.0,,,14-02-2024 00:17:18,14-02-2024 00:17:18,0.005s,PASSED
+Video,Chrome 121.0.0.0,,,14-02-2024 00:17:20,14-02-2024 00:17:20,0.001s,PASSED
+,,,,,,,
+Test Cases/cekout barang,Chrome 121.0.0.0,,,14-02-2024 00:17:20,14-02-2024 00:18:09,48.296s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,14-02-2024 00:17:21,14-02-2024 00:17:25,4.445s,PASSED
+navigateToUrl(url),Chrome 121.0.0.0,,,14-02-2024 00:17:25,14-02-2024 00:17:28,2.773s,PASSED
+"click(findTestObject(""Object Repository/Checkout/Page_Advantage Shopping/a_My account                        My orde_124641""))",Chrome 121.0.0.0,,,14-02-2024 00:17:28,14-02-2024 00:17:36,7.845s,PASSED
+"setText(findTestObject(""Object Repository/Checkout/Page_Advantage Shopping/input_OR_username""), username)",Chrome 121.0.0.0,,,14-02-2024 00:17:36,14-02-2024 00:17:39,3.256s,PASSED
+"setText(findTestObject(""Object Repository/Checkout/Page_Advantage Shopping/input_Username_password""), password)",Chrome 121.0.0.0,,,14-02-2024 00:17:39,14-02-2024 00:17:41,1.909s,PASSED
+"click(findTestObject(""Object Repository/Checkout/Page_Advantage Shopping/button_SIGN IN""))",Chrome 121.0.0.0,,,14-02-2024 00:17:41,14-02-2024 00:17:42,0.694s,PASSED
+"click(findTestObject(""Object Repository/Checkout/Page_Advantage Shopping/span_TABLETS""))",Chrome 121.0.0.0,,,14-02-2024 00:17:42,14-02-2024 00:17:43,1.231s,PASSED
+"click(findTestObject(""Object Repository/Checkout/Page_Advantage Shopping/img_SHOP NOW_16""))",Chrome 121.0.0.0,,,14-02-2024 00:17:43,14-02-2024 00:17:46,2.649s,PASSED
+"click(findTestObject(""Object Repository/Checkout/Page_Advantage Shopping/button_ADD TO CART""))",Chrome 121.0.0.0,,,14-02-2024 00:17:46,14-02-2024 00:17:50,4.019s,PASSED
+"click(findTestObject(""Object Repository/Checkout/Page_Advantage Shopping/a_1""))",Chrome 121.0.0.0,,,14-02-2024 00:17:50,14-02-2024 00:17:54,4.516s,PASSED
+"click(findTestObject(""Object Repository/Checkout/Page_Advantage Shopping/button_CHECKOUT (1,009.00)""))",Chrome 121.0.0.0,,,14-02-2024 00:17:54,14-02-2024 00:17:57,2.435s,PASSED
+"click(findTestObject(""Object Repository/Checkout/Page_Advantage Shopping/button_NEXT""))",Chrome 121.0.0.0,,,14-02-2024 00:17:57,14-02-2024 00:18:00,3.680s,PASSED
+"click(findTestObject(""Object Repository/Checkout/Page_Advantage Shopping/img""))",Chrome 121.0.0.0,,,14-02-2024 00:18:00,14-02-2024 00:18:01,0.594s,PASSED
+"setText(findTestObject(""Object Repository/Checkout/Page_Advantage Shopping/input__safepay_username""), safepay_username)",Chrome 121.0.0.0,,,14-02-2024 00:18:01,14-02-2024 00:18:02,1.516s,PASSED
+"setText(findTestObject(""Object Repository/Checkout/Page_Advantage Shopping/input__safepay_password""), safepay_password)",Chrome 121.0.0.0,,,14-02-2024 00:18:02,14-02-2024 00:18:06,3.491s,PASSED
+"click(findTestObject(""Object Repository/Checkout/Page_Advantage Shopping/button_PAY NOW""))",Chrome 121.0.0.0,,,14-02-2024 00:18:06,14-02-2024 00:18:07,0.765s,PASSED
+Video,Chrome 121.0.0.0,,,14-02-2024 00:18:09,14-02-2024 00:18:09,0.001s,PASSED

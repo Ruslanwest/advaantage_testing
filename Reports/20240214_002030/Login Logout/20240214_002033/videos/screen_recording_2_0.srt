@@ -1,0 +1,64 @@
+1
+00:00:00,169 --> 00:00:03,572
+1. openBrowser("")
+
+2
+00:00:03,580 --> 00:00:06,349
+5. navigateToUrl(url)
+
+3
+00:00:06,355 --> 00:00:15,739
+9. click(findTestObject("Object Repository/Login/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser"))
+
+4
+00:00:15,751 --> 00:00:16,859
+13. setText(findTestObject("Object Repository/Login/Page_Advantage Shopping/input_OR_username"), "ruslan1")
+
+5
+00:00:16,868 --> 00:00:18,538
+17. setText(findTestObject("Object Repository/Login/Page_Advantage Shopping/input_Username_password"), "P@ssw0rd")
+
+6
+00:00:18,549 --> 00:00:19,224
+21. click(findTestObject("Object Repository/Login/Page_Advantage Shopping/button_SIGN IN"))
+
+7
+00:00:19,234 --> 00:00:30,688
+25. click(findTestObject("Object Repository/Login/Page_Advantage Shopping/a_ruslan1_750cc9"))
+
+8
+00:00:30,699 --> 00:00:31,342
+29. click(findTestObject("Object Repository/Login/Page_Advantage Shopping/label_My account"))
+
+9
+00:00:31,355 --> 00:00:33,329
+33. verifyElementText(findTestObject("Object Repository/Login/Page_Advantage Shopping/div_ruslan ruslan"), "ruslan ruslan")
+
+10
+00:00:33,341 --> 00:00:33,904
+37. click(findTestObject("Object Repository/Login/Page_Advantage Shopping/a_ruslan1_750cc9"))
+
+11
+00:00:33,917 --> 00:00:34,423
+41. isLoggedIn = verifyElementPresent(findTestObject("Object Repository/Login/Page_Advantage Shopping/a_ruslan1_750cc9"), 5)
+
+12
+00:00:34,435 --> 00:00:34,474
+45. if (isLoggedIn)
+
+13
+00:00:34,487 --> 00:00:35,106
+1. click(findTestObject("Object Repository/Login/Page_Advantage Shopping/label_Sign out"))
+
+14
+00:00:35,118 --> 00:00:36,067
+5. isRuslanTextPresent = verifyElementPresent(findTestObject("Object Repository/Login/Page_Advantage Shopping/a_ruslan1_750cc9"), 5)
+
+15
+00:00:36,083 --> 00:00:36,091
+9. if (isRuslanTextPresent)
+
+16
+00:00:36,105 --> 00:00:36,129
+1. print("Berhasil logout")
+
