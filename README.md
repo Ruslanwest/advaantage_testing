@@ -11,3 +11,5 @@ Untuk memenuhi final exam web LPPI
 # Terdapat global Variable yang disimpan dialam default
 # Variable lokal untuk case tertentu
 # Terdapat 2 Test Suites dan Test Suites Collections dan sudah dijalankan dengan status passes
+# Source code yang ada merupakan yang paling update
+
