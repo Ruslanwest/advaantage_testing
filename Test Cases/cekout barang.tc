@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>cekout barang</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>69831ffa-ca35-4bad-b6f5-540c48268b58</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d7299830-2ed3-42b0-baf2-9a28de6eceb4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3b8dc11f-998b-40c8-a826-0cdc383eb533</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'ruslan\r\n'</defaultValue>
+      <description></description>
+      <id>d7299830-2ed3-42b0-baf2-9a28de6eceb4</id>
+      <masked>false</masked>
+      <name>safepay_username</name>
+   </variable>
+   <variable>
+      <defaultValue>'P@ssw0rd'</defaultValue>
+      <description></description>
+      <id>3b8dc11f-998b-40c8-a826-0cdc383eb533</id>
+      <masked>false</masked>
+      <name>safepay_password</name>
+   </variable>
+</TestCaseEntity>

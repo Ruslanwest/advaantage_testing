@@ -23,9 +23,9 @@ WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.click(findTestObject('Object Repository/remove_item/Page_Advantage Shopping/a_My account My orde_124641'))
 
-WebUI.setText(findTestObject('Object Repository/remove_item/Page_Advantage Shopping/input_OR_username'), 'ruslan1')
+WebUI.setText(findTestObject('Object Repository/remove_item/Page_Advantage Shopping/input_OR_username'), GlobalVariable.username)
 
-WebUI.setText(findTestObject('Object Repository/remove_item/Page_Advantage Shopping/input_Username_password'), 'P@ssw0rd')
+WebUI.setText(findTestObject('Object Repository/remove_item/Page_Advantage Shopping/input_Username_password'), GlobalVariable.password)
 
 WebUI.click(findTestObject('Object Repository/remove_item/Page_Advantage Shopping/button_SIGN IN'))
 
@@ -39,31 +39,33 @@ WebUI.click(findTestObject('Object Repository/remove_item/Page_Advantage Shoppin
 
 WebUI.click(findTestObject('Object Repository/remove_item/Page_Advantage Shopping/a_REMOVE'))
 
-String pathObjekHapusItem = "Object Repository/remove_item/Page_Advantage Shopping/a_REMOVE"
+String pathObjekHapusItem = 'Object Repository/remove_item/Page_Advantage Shopping/a_REMOVE'
 
-String pathObjekKeranjangKosong = "Object Repository/remove_item/Page_Advantage Shopping/label_Your shopping cart is empty"
+String pathObjekKeranjangKosong = 'Object Repository/remove_item/Page_Advantage Shopping/label_Your shopping cart is empty' // Mencoba mengklik elemen hapus item
+// Menunggu sebentar untuk memungkinkan perubahan UI terlihat
+// Memverifikasi keberadaan label "Keranjang belanja Anda kosong"
 
 def verifikasiKeranjangKosongSetelahPenghapusan(String pathObjekHapusItem, String pathObjekKeranjangKosong) {
-	// Mencoba mengklik elemen hapus item
-	boolean klikBerhasil = WebUI.click(findTestObject(pathObjekHapusItem))
+    boolean klikBerhasil = WebUI.click(findTestObject(pathObjekHapusItem))
 
-	if (klikBerhasil) {
-		// Menunggu sebentar untuk memungkinkan perubahan UI terlihat
-		WebUI.delay(1)
+    if (klikBerhasil) {
+        WebUI.delay(1)
 
-		// Memverifikasi keberadaan label "Keranjang belanja Anda kosong"
-		def labelKeranjangKosongTerlihat = WebUI.verifyElementPresent(findTestObject(pathObjekKeranjangKosong), 5)
+        def labelKeranjangKosongTerlihat = WebUI.verifyElementPresent(findTestObject(pathObjekKeranjangKosong), 5)
 
-		if (labelKeranjangKosongTerlihat) {
-			print("Item berhasil dihapus! Keranjang belanja sekarang kosong.")
-			return true
-		} else {
-			print("Gagal memverifikasi label keranjang kosong setelah penghapusan item.")
-			return false
-		}
-	} else {
-		print("Gagal mengklik elemen hapus item.")
-		return false
-	}
+        if (labelKeranjangKosongTerlihat) {
+            print('Item berhasil dihapus! Keranjang belanja sekarang kosong.')
+
+            return true
+        } else {
+            print('Gagal memverifikasi label keranjang kosong setelah penghapusan item.')
+
+            return false
+        }
+    } else {
+        print('Gagal mengklik elemen hapus item.')
+
+        return false
+    }
 }
 
